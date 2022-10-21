@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.shadow-custom {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+@layer components {
+  .link-header {
+    @apply flex flex-col justify-center items-center gap-2 font-medium hover:text-red-400;
+  }
+
+  .button-custom {
+    @apply p-5 rounded-xl cursor-pointer;
+  }
+
+  .box-info {
+    @apply flex flex-col items-center py-8 rounded-xl shadow-md hover:shadow-xl hover:scale-110 duration-200;
+  }
+
+  .box-services {
+    @apply flex flex-col gap-6 shadow-md pt-[7rem] pb-8 px-8 w-[90vw] md:w-[30vw] xl:w-[20vw] rounded-xl hover:shadow-xl;
+  }
+
+  .section-template {
+    @apply w-full py-[6rem] md:py-[2rem] xl:h-[90vh] m-auto flex flex-col h-full items-center justify-center;
+  }
+}
