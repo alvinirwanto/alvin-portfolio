@@ -6,6 +6,8 @@ import Skills from "./components/Skills";
 import Services from "./components/Services";
 
 import { UilArrowUp } from '@iconscout/react-unicons'
+import Qualification from "./components/Qualification";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   const [showButton, setShowButton] = useState(false)
@@ -23,7 +25,9 @@ function App() {
         <Home />
         <About />
         <Skills />
+        <Qualification/>
         <Services />
+        <Portfolio/>
       </div>
 
       <button className={showButton ? 'px-2 py-3 rounded-lg bg-red-500 text-white fixed bottom-[6rem] right-3 md:bottom-8 md:right-8 duration-300 z-888' : 'px-2 py-3 rounded-lg bg-red-500 text-white fixed -bottom-[3rem] right-3 md:right-8 duration-300 z-888'}><UilArrowUp /></button>

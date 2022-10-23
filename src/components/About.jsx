@@ -5,7 +5,9 @@ import { UilAwardAlt } from '@iconscout/react-unicons'
 import { UilSuitcaseAlt } from '@iconscout/react-unicons'
 import { UilHeadphonesAlt } from '@iconscout/react-unicons'
 import { UilDownloadAlt } from '@iconscout/react-unicons'
+
 import TitleSection from '../commons/TitleSection'
+import CV from '../assets/John-Cv.pdf'
 
 const About = () => {
     return (
@@ -39,12 +41,12 @@ const About = () => {
                     <p>Frontend developer, I created web pages with beautiful UI/UX, I have years of experience
                         and many clients are happy with the project carried out
                     </p>
-                    <button className='button-custom group bg-red-500 hover:bg-red-600 text-white w-[50%] md:w-[60%] xl:w-[37%] flex items-center justify-center gap-2'>
+                    <a href={CV} target="_blank" className='button-custom group bg-red-500 hover:bg-red-600 text-white w-[50%] md:w-[60%] xl:w-[37%] flex items-center justify-center gap-2'>
                         Download CV
                         <span className='group-hover:animate-bounce'>
                             <UilDownloadAlt />
                         </span>
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>

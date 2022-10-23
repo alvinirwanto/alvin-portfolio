@@ -8,7 +8,7 @@ const Skills = () => {
             <TitleSection title='Skills' subtitle='My Technical Level' />
             <div className='grid grid-cols-1 md:grid-cols-2 xl:max-w-[1000px] gap-5 xl:gap-8 gap-y-[5rem]'>
 
-                <div className='flex flex-col items-center px-7 xl:px-[5rem] py-[3rem] shadow-lg rounded-xl'>
+                <div className='flex flex-col items-center px-7 xl:px-[5rem] py-[3rem] shadow-lg rounded-xl hover:shadow-xl hover:scale-110 duration-300'>
                     <h1 className='text-center text-xl font-semibold mb-8'>Frontend Developer</h1>
                     <div className='grid grid-cols-2 gap-x-8 xl:gap-x-[3rem] gap-y-4'>
 
@@ -22,7 +22,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col items-center px-7 xl:px-[5rem] py-[3rem] shadow-lg rounded-xl'>
+                <div className='flex flex-col items-center px-7 xl:px-[5rem] py-[3rem] shadow-lg rounded-xl hover:shadow-xl hover:scale-110 duration-300'>
                     <h1 className='text-center text-xl font-semibold mb-8'>Other Skills</h1>
                     <div className='grid grid-cols-2 gap-x-8 xl:gap-x-[3rem] gap-y-4'>
 

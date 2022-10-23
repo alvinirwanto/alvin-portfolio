@@ -19,18 +19,18 @@ const ModalServices = (props) => {
                     <UilCheckCircle className='text-red-500' />
                     <p>{props.check3}</p>
                 </div>
-                {/* <div className='flex gap-2'>
-                    <UilCheckCircle className='text-red-500' />
+                <div className={props === 'none'? 'flex gap-2' : 'hidden'}>
+                    <UilCheckCircle className='text-xl' />
                     <p>{props.check4}</p>
                 </div>
-                <div className='flex gap-2'>
+                <div className={props === null ? 'flex gap-2' : 'hidden'}>
                     <UilCheckCircle className='text-red-500' />
                     <p>{props.check5}</p>
                 </div>
-                <div className='flex gap-2'>
+                <div className={props === null ? 'flex gap-2' : 'hidden'}>
                     <UilCheckCircle className='text-red-500' />
                     <p>{props.check6}</p>
-                </div> */}
+                </div>
 
             </div>
         </div>

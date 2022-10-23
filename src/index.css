@@ -75,4 +75,12 @@ img {
   .section-template {
     @apply w-full py-[6rem] md:py-[2rem] xl:h-[90vh] m-auto flex flex-col h-full items-center justify-center;
   }
+
+  .tab-qualification-active {
+    @apply flex flex-col md:flex-row items-center gap-1 text-base md:text-xl text-red-500 font-medium cursor-pointer
+  }
+
+  .tab-qualification {
+    @apply flex flex-col md:flex-row items-center gap-1 text-base md:text-xl text-gray-500 font-medium cursor-pointer
+  }
 }

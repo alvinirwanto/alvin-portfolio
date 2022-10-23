@@ -28,12 +28,12 @@ const Services = () => {
                     <h3 className='text-2xl md:text-xl font-semibold'>Frontend <br /> Developer</h3>
                     <button onClick={() => toggleModal(1)} className='flex items-center text-lg font-medium gap-1 text-red-400 hover:text-red-500 md:text-sm group xl:w-[60%]'>
                         View More
-                        <span className='pb-[1px] group-hover:ml-1 group-hover:pb-[1px]'>
+                        <span className='pb-[1px] duration-300 group-hover:ml-1 group-hover:pb-[1px]'>
                             <UilArrowRight />
                         </span>
                     </button>
-                    <div onClick={() => setShowModal(true)} className={showModal === 1 ? 'fixed top-0 left-0 right-0 bottom-0 z-[999] bg-[#00000080] w-screen h-screen flex justify-center items-center' : 'hidden'}>
-                        <div className='bg-white rounded-xl px-[3rem] pb-[4rem] py-[3rem] w-[35vw]'>
+                    <div className={showModal === 1 ? 'fixed top-0 left-0 right-0 bottom-0 z-[999] bg-[#00000080] w-screen h-screen flex justify-center items-center' : 'hidden'}>
+                        <div className='bg-white rounded-xl px-[3rem] pb-[4rem] py-[3rem] w-[90vw] md:w-[60vw] xl:w-[35vw]'>
                             <div onClick={() => setShowModal(true)} className='flex justify-end cursor-pointer text-red-500 hover:text-red-600 mb-8'>
                                 <UilMultiply />
                             </div>
@@ -43,7 +43,8 @@ const Services = () => {
                                 check1='Develop the User Interface'
                                 check2='Web page development'
                                 check3='Create UX element interaction'
-                            />
+                            >
+                            </ModalServices>
                         </div>
                     </div>
                 </div>
@@ -54,12 +55,12 @@ const Services = () => {
                     <h3 className='text-2xl md:text-xl font-semibold'>UI/UX <br /> Designer</h3>
                     <button onClick={() => toggleModal(2)} className='flex items-center text-lg font-medium gap-1 text-red-400 hover:text-red-500 md:text-sm group xl:w-[60%]'>
                         View More
-                        <span className='pb-[1px] group-hover:ml-1 group-hover:pb-[1px]'>
+                        <span className='pb-[1px] duration-300 group-hover:ml-1 group-hover:pb-[1px]'>
                             <UilArrowRight />
                         </span>
                     </button>
-                    <div onClick={() => setShowModal(true)} className={showModal === 2 ? 'fixed top-0 left-0 right-0 bottom-0 z-[999] bg-[#00000080] w-screen h-screen flex justify-center items-center' : 'hidden'}>
-                        <div className='bg-white rounded-xl px-[3rem] pb-[4rem] py-[3rem] w-[35vw]'>
+                    <div className={showModal === 2 ? 'fixed top-0 left-0 right-0 bottom-0 z-[999] bg-[#00000080] w-screen h-screen flex justify-center items-center' : 'hidden'}>
+                        <div className='bg-white rounded-xl px-[3rem] pb-[4rem] py-[3rem] w-[90vw] md:w-[60vw] xl:w-[35vw]'>
                             <div onClick={() => setShowModal(true)} className='flex justify-end cursor-pointer text-red-500 hover:text-red-600 mb-8'>
                                 <UilMultiply />
                             </div>
@@ -80,12 +81,12 @@ const Services = () => {
                     <h3 className='text-2xl md:text-xl font-semibold'>Branding <br /> Designer</h3>
                     <button onClick={() => toggleModal(3)} className='flex items-center text-lg font-medium gap-1 text-red-400 hover:text-red-500 md:text-sm group xl:w-[60%]'>
                         View More
-                        <span className='pb-[1px] group-hover:ml-1 group-hover:pb-[1px]'>
+                        <span className='pb-[1px] duration-300 group-hover:ml-1 group-hover:pb-[1px]'>
                             <UilArrowRight />
                         </span>
                     </button>
-                    <div onClick={() => setShowModal(true)} className={showModal === 3 ? 'fixed top-0 left-0 right-0 bottom-0 z-[999] bg-[#00000080] w-screen h-screen flex justify-center items-center' : 'hidden'}>
-                        <div className='bg-white rounded-xl px-[3rem] pb-[4rem] py-[3rem] w-[35vw]'>
+                    <div className={showModal === 3 ? 'fixed top-0 left-0 right-0 bottom-0 z-[999] bg-[#00000080] w-screen h-screen flex justify-center items-center' : 'hidden'}>
+                        <div className='bg-white rounded-xl px-[3rem] pb-[4rem] py-[3rem] w-[90vw] md:w-[60vw] xl:w-[35vw]'>
                             <div onClick={() => setShowModal(true)} className='flex justify-end cursor-pointer text-red-500 hover:text-red-600 mb-8'>
                                 <UilMultiply />
                             </div>
