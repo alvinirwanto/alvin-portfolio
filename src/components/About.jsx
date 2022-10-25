@@ -21,7 +21,7 @@ const About = () => {
 
 
                 <div className='flex flex-col justify-start gap-8 xl:mr-[3rem]'>
-                    <div className='grid grid-cols-3 gap-3 md:gap-2 xl:gap-4'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 md:gap-2 xl:gap-4'>
                         <div className='box-info'>
                             <UilAwardAlt height='25' width='35' className='mb-4' />
                             <p className='font-medium text-base xl:text-lg'>8+ Years</p>
@@ -41,7 +41,7 @@ const About = () => {
                     <p>Frontend developer, I created web pages with beautiful UI/UX, I have years of experience
                         and many clients are happy with the project carried out
                     </p>
-                    <a href={CV} target="_blank" className='button-custom group bg-red-500 hover:bg-red-600 text-white w-[50%] md:w-[60%] xl:w-[37%] flex items-center justify-center gap-2'>
+                    <a href={CV} target="_blank" className='button-custom group bg-[color:var(--base-color)] hover:bg-[color:var(--base-color-darker)] text-white w-[50%] md:w-[60%] xl:w-[37%] flex items-center justify-center gap-2'>
                         Download CV
                         <span className='group-hover:animate-bounce'>
                             <UilDownloadAlt />

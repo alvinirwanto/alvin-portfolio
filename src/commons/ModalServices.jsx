@@ -8,27 +8,27 @@ const ModalServices = (props) => {
             <p className='text-center text-base text-gray-500'>{props.desc}</p>
             <div className='flex flex-col gap-3 text-base text-gray-800 mt-6'>
                 <div className='flex gap-2'>
-                    <UilCheckCircle className='text-red-500' />
+                    <UilCheckCircle className='text-[color:var(--base-color)]' />
                     <p>{props.check1}</p>
                 </div>
                 <div className='flex gap-2'>
-                    <UilCheckCircle className='text-red-500' />
+                    <UilCheckCircle className='text-[color:var(--base-color)]' />
                     <p>{props.check2}</p>
                 </div>
                 <div className='flex gap-2'>
-                    <UilCheckCircle className='text-red-500' />
+                    <UilCheckCircle className='text-[color:var(--base-color)]' />
                     <p>{props.check3}</p>
                 </div>
-                <div className={props === 'none'? 'flex gap-2' : 'hidden'}>
+                <div className={props === 'none' ? 'flex gap-2' : 'hidden'}>
                     <UilCheckCircle className='text-xl' />
                     <p>{props.check4}</p>
                 </div>
                 <div className={props === null ? 'flex gap-2' : 'hidden'}>
-                    <UilCheckCircle className='text-red-500' />
+                    <UilCheckCircle className='text-[color:var(--base-color)]' />
                     <p>{props.check5}</p>
                 </div>
                 <div className={props === null ? 'flex gap-2' : 'hidden'}>
-                    <UilCheckCircle className='text-red-500' />
+                    <UilCheckCircle className='text-[color:var(--base-color)]' />
                     <p>{props.check6}</p>
                 </div>
 
